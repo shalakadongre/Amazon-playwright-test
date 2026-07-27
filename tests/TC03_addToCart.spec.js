@@ -4,7 +4,7 @@ const {HomePage} = require('../pages/HomePage');
 const {BestSellersBaby} = require('../pages/BestSellersBaby');
  
 
-test('@regression TC03_addToCart', async function({page})
+test('@regression @all TC03_addToCart', async function({page})
 {
  const home = new HomePage(page);
 await home.goTo();

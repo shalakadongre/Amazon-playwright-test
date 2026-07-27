@@ -1,6 +1,6 @@
 const { test, expect } = require('@playwright/test');
 
-test('@sanity TC04_changeCountry1', async ({ page, context }) => {
+test('@sanity @all TC04_changeCountry1', async ({ page, context }) => {
 
   await page.goto('https://www.amazon.com/');
 

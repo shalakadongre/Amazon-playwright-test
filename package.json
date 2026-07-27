@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {"regression": "playwright test --headed --grep @regression", "sanity": "playwright test --headed --grep @sanity"},
+  "scripts": {"all": "playwright test --headed --grep @all", "regression": "playwright test --headed --grep @regression", "sanity": "playwright test --headed --grep @sanity"},
   "keywords": [],
   "author": "",
   "license": "ISC",
